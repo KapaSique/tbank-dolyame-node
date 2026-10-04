@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+*.log
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+!.env.example
+# Never commit terminal passwords, API logins or mTLS material.
+*.key
+*.p12
+*.pfx
